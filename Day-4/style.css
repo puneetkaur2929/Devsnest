@@ -1,0 +1,27 @@
+.outer{
+    border-radius: 50%;
+    border:50px solid rgb(238, 7, 7);
+    height:388px;
+    width:388px;
+    margin:auto;
+    box-shadow:4px 4px 0px #bfbfbf, 
+    -4px -4px 0px #cecece,
+     4px -4px 0px #cecece,
+      -4px 4px 0px #bfbfbf;
+}
+svg{
+    border:3px solid rgb(255, 254, 254);
+    border-radius: 50%;
+    height:382px;
+    width:384px;
+    box-shadow:inset 4px 4px 4px #b7b7b7,
+     inset -4px -4px 4px #b7b7b7,
+     inset 4px -4px 4px #b7b7b7, 
+      inset -4px 4px 4px #b7b7b7;
+}
+#hour, #minute, #second{
+    stroke:black;
+    stroke-linecap:round;
+    stroke-width:5px;
+
+}
