@@ -5,15 +5,12 @@
 }
 body{
     height:fit-content;
-   
     background:linear-gradient(123deg , rgb(68, 255, 239),rgb(247, 69, 247),rgb(148 17 252),rgb(241, 241, 90),rgb(59, 241, 59)) ;
     background-repeat: no-repeat;
     display: flex;
-    
-    
 }
 .count{
-    margin: 20px;
+  margin: 20px;
   text-align: center;
   height:70px;
   width:200px;
@@ -22,7 +19,6 @@ body{
   border-radius: 10px;
 }
 .flipgame{
-   /* border:2px solid purple; */
     width:540px;
     height:500px;
     display: flex;
