@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+::-webkit-scrollbar {
+    width: 8px;
+  }
+ 
+  ::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background:rgb(138, 184, 245);
+    margin:0px 2px;
+  }
+ 
+  ::-webkit-scrollbar-thumb {
+      border-radius: 5px;
+      margin:0px 2px;
+    background: rgb(0, 0, 0);
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+body{
+    background-color: lightcoral;
+}
+.cont{
+    display: block;
+    width: fit-content;
+    margin: auto;
+   
+}
+.cont h1{
+    border-bottom: 2px dashed black;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 2.7rem;
+    margin: 15px 0px ;
+}
+.box{
+    padding: 5px;
+    width:fit-content;
+    box-shadow: 4px 4px 5px grey,
+    -4px -4px 5px rgb(54, 54, 54);
+   border-radius: 5px;
+   height:350px;
+   overflow-y: scroll;
+}
+.card{
+    padding:10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 1.7rem;
+    color: rgb(202, 202, 202);
+    background: black;
+    box-shadow: 2px 2px 5px rgb(194, 194, 194),
+    -2px -2px 2px rgb(83, 83, 83);
+    height:40%;
+}
+.card:hover{
+    transform: scale(.95);
+    transition: transform .7s ease-in;
+}
+.title{
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+    color: rgb(247, 154, 255);
+}
+.cal{
+    font-style: italic;
+}
