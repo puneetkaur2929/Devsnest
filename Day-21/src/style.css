@@ -1,0 +1,45 @@
+.main{
+    display: block;
+    width:50%;
+    margin: auto;
+}
+.main input{
+    margin:10px;
+    width:40%;
+    padding:5px;
+}
+.btn{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    padding: 5px;
+    width:290px;
+    background: rgb(2, 183, 255);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+}
+.btn:hover{
+    background: rgb(0, 163, 228);
+}
+.cont{
+    border: 2px solid red;
+}
+.edit ,.del{
+    background-color: blueviolet;
+    color:white;
+    margin:6px;
+    border-radius: 5px;
+    border: none;
+    padding:4px 8px;
+}
+.del{
+    background-color: rgb(201, 4, 4);
+}
+.edit:hover{
+    background-color: rgb(95, 4, 180);
+}
+.del:hover{
+    background-color:rgb(165, 1, 1) ;
+}
